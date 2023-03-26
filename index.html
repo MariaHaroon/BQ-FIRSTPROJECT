@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FOOD WEBSITE</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="" href="favicon.ico.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -15,6 +16,7 @@
 <body>
 
     <!-- header -->
+    <marquee scrollamount="8" height="25px" bgcolor="Yellow" direction="rtl" >Free Delivery On All Orders Above 2000</marquee>
     <div class="bg-pic">
         <div class="nav">
             <img src="logo.png" alt="logo" class="logo">
@@ -23,15 +25,15 @@
                 <i class="fa fa-bars"></i>
             </label>
             <ul>
-                <li><a class="active" href="">HOME</a></li>
-                <li><a href="">PAGES</a></li>
-                <li><a href="">FEATURES</a></li>
-                <li><a href="">BLOG</a></li>
-                <li><a href="">CONTACT US</a></li>
+                <li><a class="active" href=""data-aos="zoom-out-up">HOME</a></li>
+                <li><a href=""data-aos="zoom-out-up">PAGES</a></li>
+                <li><a href=""data-aos="zoom-out-up">FEATURES</a></li>
+                <li><a href=""data-aos="zoom-out-up">BLOG</a></li>
+                <li><a href=""data-aos="zoom-out-up">CONTACT US</a></li>
             </ul>
         </div>
         <div class="content">
-            <h3>SUPER DEAL <br> BURGER</h3>
+            <h3 data-aos="zoom-out-right">SUPER DEAL <br> BURGER</h3>
         </div>
         <div>
             <button class="btn1">ORDER NOW</button>
@@ -42,7 +44,7 @@
         <!-- body -->
         <div class="col-2">
             <div class="item2">
-                <img src="b-pic.png" alt="" class="img">
+                <img src="b-pic.png" data-aos="flip-right" alt="" class="img">
             </div>
             <div class="item2">
                 <ul>
@@ -84,57 +86,57 @@
         <!-- food item -->
         <div class="categories1">
             <div class="p-item">
-                <img src="dish-1.png" width="200px" height="200px">
+                <img src="dish-1.png" data-aos="flip-right" width="200px" height="200px">
                 <h4>CHEESE BURGER <span>$3.99</span></h4>
                 <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit Fuidhir Pinnately.</p>
             </div>
 
             <div class="p-item">
-                <img src="dish-2.png" width="200px" height="200px">
+                <img src="dish-2.png" data-aos="flip-right" width="200px" height="200px">
                 <h4>BEEF BURGER <SPan>$5.99</SPan></h4>
                 <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit Fuidhir Pinnately.</p>
             </div>
 
             <div class="p-item">
-                <img src="dish-3.png" width="200px" height="200px">
+                <img src="dish-3.png" data-aos="flip-right" width="200px" height="200px">
                 <h4>CHICKEN BURGER <span>$7.99</span></h4>
                 <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit Fuidhir Pinnately.</p>
             </div>
 
 
             <div class="p-item">
-                <img src="dish-1.png" width="200" height="200px">
+                <img src="dish-1.png"  data-aos="flip-right"width="200" height="200px">
                 <h4>CHEESE BURGER <span>$3.99</span></h4>
                 <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit Fuidhir Pinnately.</p>
             </div>
 
             <div class="p-item">
-                <img src="dish-2.png" width="200" height="200px">
+                <img src="dish-2.png" data-aos="flip-right" width="200" height="200px">
                 <h4>BEEF BURGER <SPan>$5.99</SPan></h4>
                 <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit Fuidhir Pinnately.</p>
             </div>
 
             <div class="p-item">
-                <img src="dish-3.png" width="200" height="200px">
+                <img src="dish-3.png" data-aos="flip-right" width="200" height="200px">
                 <h4>CHICKEN BURGER <span>$7.99</span></h4>
                 <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit Fuidhir Pinnately.</p>
             </div>
 
 
             <div class="p-item">
-                <img src="dish-1.png" width="200" height="200px">
+                <img src="dish-1.png" data-aos="flip-right" width="200" height="200px">
                 <h4>CHEESE BURGER <span>$3.99</span></h4>
                 <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit Fuidhir Pinnately.</p>
             </div>
 
             <div class="p-item">
-                <img src="dish-2.png" width="200" height="200px">
+                <img src="dish-2.png"  data-aos="flip-right"width="200" height="200px">
                 <h4>BEEF BURGER <SPan>$5.99</SPan></h4>
                 <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit Fuidhir Pinnately.</p>
             </div>
 
             <div class="p-item">
-                <img src="dish-3.png" width="200" height="200px">
+                <img src="dish-3.png" data-aos="flip-right" width="200" height="200px">
                 <h4>CHICKEN BURGER <span>$7.99</span></h4>
                 <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit Fuidhir Pinnately.</p>
             </div>
@@ -206,8 +208,10 @@
         </div>
         <p class="copyright">Copyright</p>
 
-
-
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
 
 
 </body>
