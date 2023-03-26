@@ -167,17 +167,7 @@ button:hover {
     padding-right: 25px;
     padding-left: 25px;
 }
-.categories{
-    animation-name: categories;
-    animation-duration: 8s;
-    animation-delay: 3s;
-    animation-iteration-count: 8s;
-    animation-direction:alternate-reverse ;
-}
-@keyframes categories{
-    from{width:200px;}
-    to{width:1400px;}
-}
+
 /* whats new */
 .menu {
     padding-top: 50px;
@@ -206,17 +196,6 @@ button:hover {
     text-align: center;
 }
 
-.categories1{
-    animation-name: categories1;
-    animation-duration: 8s;
-    animation-delay: 3s;
-    animation-iteration-count: 8s;
-    animation-direction:alternate-reverse ;
-}
-@keyframes categories1{
-    from{width:200px;}
-    to{width:1800px;}
-}
 
 
 .p-item {
